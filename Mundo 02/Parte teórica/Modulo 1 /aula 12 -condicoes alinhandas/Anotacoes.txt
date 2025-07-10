@@ -24,7 +24,7 @@ sempre começar com if, depois elif ou else
 
         elif variação 3, 4 ...
 
-            é possivel usar varios elif's
+            é possivel usar varios elif
 
 
 
