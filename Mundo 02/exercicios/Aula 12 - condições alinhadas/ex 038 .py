@@ -19,9 +19,9 @@ n2 = int(input('Inserir outro número: '))
 if n1 == n2:
     print(f'não existe valor maior, os dois são iguais.' )
 elif n1 > n2:
-    print(f'o número {n1} é maior que o número {n2}')
+    print('O primeiro valor é maior')
 else:
-    print(f'o número {n1} é menor que o número {n2}')
+    print('O segundo valor é maior.')
 
 sleep(2)
 print('Fim')
