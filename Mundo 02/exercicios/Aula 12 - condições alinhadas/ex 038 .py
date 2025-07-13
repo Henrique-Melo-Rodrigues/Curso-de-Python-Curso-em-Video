@@ -8,8 +8,22 @@ from time import sleep
 print('-'*10)
 
 sleep(2)
-n1 = int(input('inserir um número: '))
+print('Começando programa')
+sleep(2)
+n1 = int(input('Inserir um número: '))
 print('-'*10)
 print('computando...')
 sleep(2)
-n2 = int(input('inserir outro número: '))
+n2 = int(input('Inserir outro número: '))
+
+if n1 == n2:
+    print(f'não existe valor maior, os dois são iguais.' )
+elif n1 > n2:
+    print(f'o número {n1} é maior que o número {n2}')
+else:
+    print(f'o número {n1} é menor que o número {n2}')
+
+sleep(2)
+print('Fim')
+print('-'*10)
+
